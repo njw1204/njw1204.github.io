@@ -64,7 +64,6 @@ a.btn-cta-primary,
   border: 1px solid #54ba4e;
   color: #fff;
   font-weight: 600;
-  text-transform: uppercase;
 }
 a.btn-cta-primary:hover,
 .btn-cta-primary:hover {
@@ -78,7 +77,6 @@ a.btn-cta-secondary,
   border: 1px solid #479FC8;
   color: #fff;
   font-weight: 600;
-  text-transform: uppercase;
 }
 a.btn-cta-secondary:hover,
 .btn-cta-secondary:hover {
@@ -128,7 +126,7 @@ iframe {
   margin-right: 30px;
 }
 .header .profile-content .name {
-  color: #49515a;
+  color: #39314a;
   font-size: 38px;
   margin-bottom: 5px;
   margin-top: 30px;
@@ -200,10 +198,13 @@ iframe {
   font-size: 12px;
 }
 .latest .item .title a {
-  color: #778492;
+  color: #39314a;
+  transition-delay: 0s;
 }
 .latest .item .title a:hover {
-  color: #5f6b77;
+  color: #d71585;
+  transition-duration: 0.2s;
+  text-decoration: none;
 }
 .latest .item .project-image:hover {
   -webkit-opacity: 0.8;
@@ -338,11 +339,8 @@ iframe {
 }
 /* Info Section */
 .info .fa {
-  margin-right: 15px;
+  margin-right: 10px;
   color: #ccd1d6;
-}
-.info .fa.fa-envelope-o {
-  font-size: 14px;
 }
 .info ul {
   margin-bottom: 0;
