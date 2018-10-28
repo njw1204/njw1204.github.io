@@ -472,12 +472,6 @@ iframe {
 .list ul li .fa {
   margin-right: 5px;
 }
-.list ul li a {
-  color: #778492;
-}
-.list ul li a:hover {
-  color: #49515a;
-}
 /* Credits */
 .credits ul li {
   margin-bottom: 10px;
@@ -540,4 +534,31 @@ iframe {
   .container {
     width: 1360px;
   }
+}
+
+.scale {
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transition: all 0.2s ease-in-out;
+}
+.scale:hover {
+  transform: scale(1.06);
+  -webkit-transform: scale(1.06);
+  -moz-transform: scale(1.06);
+  -ms-transform: scale(1.06);
+  -o-transform: scale(1.06);
+}
+.project-image {
+  box-shadow:
+    0 1px 1px #c0c0c0,
+    0 2px 0 #a8a7a6,
+    0 3px 0 #8b8a89,
+    0 4px 0 #7d7b7a,
+    0 5px 0 #686766,
+    0 6px 2px #5f5e5d,
+    0 7px 13px #4f4e4d,
+    inset 1px 1px 50px #7c7c7e;
 }
