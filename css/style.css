@@ -58,7 +58,7 @@ footer {
 }
 
 header,
-footer { 
+footer {
   flex-shrink: 0;
 }
 
@@ -73,7 +73,7 @@ li {
 }
 
 a {
-  color: #2980b9;
+  color: #0984e3;
   font-size: 1.2em;
   font-weight: 300;
   text-decoration: none;
