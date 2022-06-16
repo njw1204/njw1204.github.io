@@ -1,0 +1,17 @@
+{
+  "name": "njw1204.github.io",
+  "version": "1.0.0",
+  "homepage": "https://njw1204.github.io/",
+  "license": "MIT",
+  "scripts": {
+    "prebuild": "rimraf -rf build/",
+    "build": "cpy . ../build/ --cwd=public",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "cpy-cli": "^4.1.0",
+    "gh-pages": "^4.0.0",
+    "rimraf": "^3.0.2"
+  }
+}
