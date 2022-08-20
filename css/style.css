@@ -13,7 +13,7 @@ body {
   color: #2c3e50;
   background-color: #ecf0f1;
   font-size: 16px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   text-align: center;
 }
 
@@ -34,18 +34,6 @@ h1 {
 
 h2 {
   font-weight: 500;
-}
-
-main {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  flex: 1 0 auto;
-  padding: 16px;
-}
-
-main > section {
-  flex: 1;
 }
 
 header {
@@ -73,7 +61,7 @@ li {
 }
 
 a {
-  color: #0984e3;
+  color: #0970d3;
   font-size: 1.2em;
   font-weight: 300;
   text-decoration: none;
@@ -92,4 +80,60 @@ address {
   color: #7f8c8d;
   font-size: 0.8em;
   font-style: normal;
+}
+
+main {
+  flex: 1 0 auto;
+  padding: 16px;
+}
+
+.board {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.board > section {
+  flex: 1;
+}
+
+.timeline {
+  display: inline-block;
+  margin: 50px 0;
+  text-align: start;
+}
+
+.timeline li {
+  position: relative;
+  margin: 0;
+  padding: 0 0 0 20px;
+  border-left: 1px solid #4e5ed3;
+}
+
+.timeline li:last-child {
+  border-left: 1px solid transparent;
+  padding-bottom: 0;
+}
+
+.timeline li::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  background: white;
+  border: 1px solid #4e5ed3;
+  box-shadow: 3px 3px 0px #bab5f8;
+  border-radius: 50%;
+  position: absolute;
+  left: -8px;
+  top: 0px;
+}
+
+.timeline-time {
+  color: #7f8c8d;
+}
+
+.timeline-message {
+  margin: 0;
+  padding: 8px 0 32px;
+  line-height: 1.3;
 }
