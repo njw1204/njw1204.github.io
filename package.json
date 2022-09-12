@@ -6,8 +6,7 @@
   "scripts": {
     "prebuild": "rimraf -rf build/",
     "build": "cpy . ../build/ --cwd=public",
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "yarn build"
   },
   "devDependencies": {
     "cpy-cli": "^4.1.0",
