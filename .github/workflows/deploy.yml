@@ -14,5 +14,7 @@ jobs:
       with:
         node-version: 16.x
         cache: 'yarn'
+    - run: git config --global user.name "Na Jongwoo"
+    - run: git config --global user.email "njw1204@naver.com"
     - run: yarn install --frozen-lockfile
     - run: yarn deploy
