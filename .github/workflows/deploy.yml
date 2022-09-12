@@ -17,4 +17,8 @@ jobs:
     - run: git config --global user.name "Na Jongwoo"
     - run: git config --global user.email "njw1204@naver.com"
     - run: yarn install --frozen-lockfile
-    - run: yarn deploy
+    - run: yarn build
+    - uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./build
