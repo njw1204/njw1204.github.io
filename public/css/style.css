@@ -103,6 +103,15 @@ main {
   text-align: start;
 }
 
+.timeline-title {
+  display: inline-block;
+  margin-top: 1.2em;
+  margin-bottom: 1.2em;
+  margin-left: 3px;
+  font-size: 1.2em;
+  color: #4e5ed3;
+}
+
 .timeline li {
   position: relative;
   margin: 0 0 0 7px;
