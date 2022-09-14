@@ -7,9 +7,6 @@ const getDdayPercentage = (dDayStartDate, dDayEndDate) => {
   ).toFixed(8);
 };
 
-// 2022-08-10T00:00:00+09:00
-// new Date("2020-09-11T00:00:00+09:00")
-
 window.setInterval(() => {
   const percentage = getDdayPercentage(
     new Date("2018-03-02T00:00:00+09:00"),
