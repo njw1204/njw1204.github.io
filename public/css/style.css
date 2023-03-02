@@ -61,7 +61,6 @@ li {
 a {
   color: #0970d3;
   font-size: 1.2em;
-  font-weight: 300;
   text-decoration: none;
 }
 
@@ -107,7 +106,7 @@ main {
   margin-bottom: 1.2em;
   margin-left: 3px;
   font-size: 1.2em;
-  color: #4e5ed3;
+  color: #111111;
 }
 
 .timeline li {
