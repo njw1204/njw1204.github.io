@@ -60,7 +60,6 @@ li {
 
 a {
   color: #0970d3;
-  font-size: 1.2em;
   text-decoration: none;
 }
 
@@ -102,7 +101,6 @@ main {
 
 .timeline-title {
   display: inline-block;
-  margin-top: 1.2em;
   margin-bottom: 1.2em;
   margin-left: 3px;
   font-size: 1.2em;
